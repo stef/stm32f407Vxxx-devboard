@@ -1,0 +1,94 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Thu 20 Feb 2014 09:46:52 PM CET
+#Cmp ( order = Reference )
+| B1         SWITCH_4PIN 
+| B2         SWITCH_4PIN 
+| C1         2.2u        
+| C2         2.2u        
+| C3         22p         
+| C4         100n        
+| C8         100n        
+| C9         100n        
+| C10        100n        
+| C11        100n        
+| C12        100n        
+| C13        100n        
+| C14        100n        
+| C15        100n        
+| C16        100n        
+| C17        100n        
+| C18        100n        
+| C19        100n        
+| C20        22p         
+| C21        4.7u        
+| C22        100n        
+| C23        2.2u        
+| C24        2.2u        
+| C25        100n        
+| C26        1u          
+| C27        100n        
+| C28        1u          
+| C29        100n        
+| D1         SML-211UTT86
+| D2         SML-211YTT86
+| JP1        JUMPER3     
+| L1         30@100MHz   
+| L2         22@100MHz   
+| P1         DIL32       
+| P2         DIL32       
+| P3         DIL32       
+| P6         CONN_3      
+| P7         USB-MINI-B  
+| R1         1k          
+| R2         1k          
+| U1         STM32F40XVX 
+| U6         LP38691     
+| X1         CRYSTAL     
+#End Cmp
+
+#Cmp ( order = Value )
+| SWITCH_4PIN  B1        
+| SWITCH_4PIN  B2        
+| 22p          C3        
+| 22p          C20       
+| 100n         C4        
+| 100n         C8        
+| 100n         C9        
+| 100n         C10       
+| 100n         C11       
+| 100n         C12       
+| 100n         C13       
+| 100n         C14       
+| 100n         C15       
+| 100n         C16       
+| 100n         C17       
+| 100n         C18       
+| 100n         C19       
+| 100n         C22       
+| 100n         C25       
+| 100n         C27       
+| 100n         C29       
+| 1u           C26       
+| 1u           C28       
+| 2.2u         C1        
+| 2.2u         C2        
+| 2.2u         C23       
+| 2.2u         C24       
+| 4.7u         C21       
+| SML-211UTT86 D1        
+| SML-211YTT86 D2        
+| JUMPER3      JP1       
+| 30@100MHz    L1        
+| 22@100MHz    L2        
+| DIL32        P1        
+| DIL32        P2        
+| DIL32        P3        
+| CONN_3       P6        
+| USB-MINI-B   P7        
+| 1k           R1        
+| 1k           R2        
+| STM32F40XVX  U1        
+| LP38691      U6        
+| CRYSTAL      X1        
+#End Cmp
+
+#End List
